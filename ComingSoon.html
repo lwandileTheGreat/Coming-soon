@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+    </style>
+  </head>
+  <body>
+    <div id="logo" > <img src="logo2 (2).png" alt="The logo of the iTechYe2 company"></div>
+ 
+    <section style="padding: 1px 16px; height: 450px;">
+      <div class="container">
+      
+      <img id="img" src="coming-soon.png" />
+        <div class="overlay">
+          <div class="text">iTechYe2<br>
+          We're <br> Coming <br> Soon!</div> </div>
+      <div class=content >
+        <h2>iTechYe2 (English: "Our Tech")</h2>
+     
+        <p>We would love to proudly present to you our brand new company. The company will be <br> focused on building amazing Web applications, out of this world Android applications & more... </p>
+      </div>
+      <div id="time">
+        <p>Today is:</p>
+        <script>
+          document.write(Date());
+        </script>
+      </div>
+</section>
+
+<video [muted]="true" autoplay controls playsinline loop>
+<source src="./loading.mp4" type="video/mp4"></video>
+
+<p id=contact style="text-align: center;">Contact Us:</p>
+<div class="icons">
+  
+  <a href="https://www.facebook.com/capacitiza/?__tn__=%2Cd%2CP-R&eid=ARBhfrWtMc4D3QcOi9op-wlLGJ0KBjinBVmyIzO_Azg7uLxQJl5ZT81-Bl0TwOz69eac8Nee7mPFrKz-" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/CapaCiTiZA" class="fa fa-twitter"></a>
+  <a href="mailto: lwandilentshobane@gmail.com" class="fa fa-google"></a>
+  <a href="https://www.linkedin.com/in/lwandile-ntshobane-5214bb152/" class="fa fa-linkedin"></a>
+  <a href="https://www.youtube.com/channel/UCkPukeyUiKb2LWpFcJZp-iQ" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/lwandomalwa/" class="fa fa-instagram"></a></div>
+
+  <footer>
+    <p>iTechYe2 &copy; <span id="year"></span> - All rights reserved</p></footer>
+   
+    <script>
+      document.getElementById('year').innerHTML = new Date().getFullYear()
+    </script>
+  </body>
+</html>
